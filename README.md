@@ -16,27 +16,32 @@ Aplicação de listagem e gerenciamento de produtos onde é permitido visualizar
 
 ## 🚀 **Utilização**
 
-### Viewing Products
+### Visualizando Produtos
 
-- The homepage displays a paginated list of products.
-- Use the search bar to find specific products by name.
+- A homepage exibe uma lista paginada de produtos.
+- Use a barra de pesquisa para encontrar produtos específicos pelo nome.
 
-### Adding a Product
+![alt text](assets/Homepage.png)
 
-- Click the "Adicionar Produto" button.
-- Fill in the product details in the modal that appears.
+### Adicionando um produto novo
+
+- Clique no botão "Adicionar Produto".
+- Preencha os dados do produto no modal que irá aparecer ao apertar no botão.
 - Click "Save" to add the product to the list.
+- Clique em "Adicionar" na modal para cadastrar um novo produto.
 
-### Editing a Product
+  ![alt text](assets/Modal.png)
 
-- Click the edit icon (🖉) next to the product you want to edit.
-- Update the product details in the modal that appears.
-- Click "Save" to update the product.
+### Editando um produto
+
+- Para Editar clique no icone de edição (🖉) do produto.
+- Na modal que irá abrir atualize as informações do produto.
+- Clique em "Editar" na modal para editar o produto escolhido.
 
 ### Deleting a Product
 
-- Click the delete icon (🗑️) next to the product you want to delete.
-- Confirm the deletion in the pop-up alert.
+- Para Excluir clique no icone de edição (🖉) do produto.
+- Confirme a exclusão no pop-up.
 
 ## 🧰 **Tecnologia Utilizadas**
 
@@ -53,8 +58,6 @@ Aplicação de listagem e gerenciamento de produtos onde é permitido visualizar
   - Prisma
 
 ## 👥 **Contributing**
-
-Contributions are welcome! To contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/your-feature`
