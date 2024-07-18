@@ -112,7 +112,7 @@ const ModalProduto = ({ showModal, setShowModal, fetchProdutos, produtoParaEdita
       </Modal.Body>
       <Modal.Footer style={{ borderTop: "none" }}>
         <Button variant="success" onClick={handleSalvarProduto} className="button">
-          {produtoParaEditar ? "Editar Produto" : "Adicionar Produto"}
+          {produtoParaEditar ? "Editar" : "Adicionar"}
         </Button>
       </Modal.Footer>
     </Modal>
